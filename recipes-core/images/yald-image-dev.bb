@@ -1,3 +1,4 @@
 require yald-image-prod.bb
 
-# TODO: Add packages specific to development build
+# Add packages specific to development build
+IMAGE_INSTALL:append = " bash"
